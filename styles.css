@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 10000px;
+}
+
+body {
+  position: relative;
+}
+
+/* nav */
+
+.nav {
+  width: 400px;
+  height: 7450px;
+  background: url(./images/mercury.png) top left no-repeat;
+  background-size: auto;
+  position: absolute;
+  top: 1054px;
+  left: 0;
+  z-index: 9999;
+  border-radius: 0 40px 40px 0;
+  border: 1px solid #888;
+}
+
+/* picture 1 */
+.picture1 {
+  width: 1903px;
+  height: 1054px;
+  background: url(./images/happyegg.png) top left no-repeat;
+  background-size: auto;
+}
+
+.picture1 .textbox1 {
+  width: 961px;
+  height: 312px;
+  left: 146px;
+  top: 235px;
+  font-size: 100px;
+  font-weight: 700;
+  color: #fbaf3f;
+  background-color: #f6f0e8;
+  position: absolute;
+}
+
+.picture1 .coverbox0 {
+  width: 843px;
+  height: 155px;
+  background-color: #f6f0e8;
+  position: absolute;
+  left: 56px;
+  top: 34px;
+}
+
+/* picture2 */
+
+.picture2 {
+  width: 1603px;
+  height: 3731px;
+  background: url(./images/happyegg2.png) top left no-repeat;
+  background-size: cover;
+  margin-left: 300px;
+}
+
+/* picture 3 */
+
+.picture3 {
+  width: 1603px;
+  height: 2930px;
+  background: url(./images/tic-tac.png) top left no-repeat;
+  background-size: cover;
+  margin-left: 300px;
+}
+
+.picture3 .coverbox1 {
+  width: 139px;
+  height: 109px;
+  left: 125px;
+  top: 4756px;
+  position: absolute;
+  background-color: #bf7aff;
+}
+
+.picture3 .p1 {
+  width: 571px;
+  height: 400px;
+  left: 1135px;
+  top: 5078px;
+  position: absolute;
+  background: url(./images/standard.jpg) center center no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+/* picture4 */
+
+.picture4 {
+  width: 1603px;
+  height: 750px;
+  background: url(./images/mercury2.png) top left no-repeat;
+  background-size: cover;
+  margin-left: 300px;
+}
+
+.picture5 {
+  width: 1903px;
+  height: 750px;
+  background: url(./images/contact.png) top left no-repeat;
+  background-size: auto;
+}
